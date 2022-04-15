@@ -1,0 +1,69 @@
+{
+    "id": "cs_test_a1ccndKHWJhIo5rvNTmLyB2JU7EXwLnLMsILKwBekJfHndSTvUB8rkPYRk",
+    "object": "checkout.session",
+    "after_expiration": null,
+    "allow_promotion_codes": null,
+    "amount_subtotal": 500000,
+    "amount_total": 500000,
+    "automatic_tax": {
+        "enabled": false,
+        "status": null
+    },
+    "billing_address_collection": null,
+    "cancel_url": "http://localhost:3000/packages",
+    "client_reference_id": "6235f1851da899d17435e5b8",
+    "consent": null,
+    "consent_collection": null,
+    "currency": "usd",
+    "customer": "cus_LV2UnouQeYqiCo",
+    "customer_creation": "always",
+    "customer_details": {
+        "address": {
+            "city": null,
+            "country": "NP",
+            "line1": null,
+            "line2": null,
+            "postal_code": null,
+            "state": null
+        },
+        "email": "sasheet@gmail.com",
+        "name": "Govind Bohara",
+        "phone": null,
+        "tax_exempt": "none",
+        "tax_ids": []
+    },
+    "customer_email": "sasheet@gmail.com",
+    "expires_at": 1649928122,
+    "livemode": false,
+    "locale": null,
+    "metadata": {
+        "time": "5:06 PM"
+    },
+    "mode": "payment",
+    "payment_intent": "pi_3Ko2OkFXaAQEXLLt0EdPT6T9",
+    "payment_link": null,
+    "payment_method_options": {},
+    "payment_method_types": [
+        "card"
+    ],
+    "payment_status": "paid",
+    "phone_number_collection": {
+        "enabled": false
+    },
+    "recovered_from": null,
+    "setup_intent": null,
+    "shipping": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "shipping_rate": null,
+    "status": "complete",
+    "submit_type": null,
+    "subscription": null,
+    "success_url": "http://localhost:3000/Home?packagename=7 days package",
+    "total_details": {
+        "amount_discount": 0,
+        "amount_shipping": 0,
+        "amount_tax": 0
+    },
+    "url": null
+}
